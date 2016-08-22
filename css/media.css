@@ -1,0 +1,68 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+      width: 95%;
+      margin: 0 auto;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  h2 {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 120px;
+  }
+  .our-team-foto1,
+  .our-team-foto2,
+  .our-team-foto3 {
+    width: 100%;
+  }
+.blog-item--text {
+  text-transform: none;
+  padding-left: 5px;
+}
+.blog-item--picture {
+  width: 40%;
+}
+.our-team-social {
+    width: 80%;
+  margin: 210px 0 0 25px;
+}
+.our-team-foto {
+    width: 33%;
+}
+.what-we-do-img {
+  width: 48%;
+}
+.super-team,
+.super-office,
+.super-technology {
+    width: 33%;
+}
+.tablet-bg {
+  right: 230px;
+}
+.owl-text .flex-box {
+    width: 35%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
