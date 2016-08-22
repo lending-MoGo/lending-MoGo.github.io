@@ -64,5 +64,138 @@
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 321px) {
+  header {
+      min-height: 820px;
+  }
+  .container {
+      width: 100%;
+  }
+  .header-nav {
+flex-flow: column;
+}
+.logo {
+  margin: 0 auto;
+  display: block;
+}
+
+  .navigator {
+    width: 90%;
+    flex-wrap:wrap;
+    padding-right: 10px;
+
+}
+.navigator a {
+    margin-left: 10px;
+
+}
+h2 {
+  margin-top: 50px;
+    font-size: 32px;
+}
+h1 {
+    font-size: 50px;
+}
+.header-btn {
+    display: block;
+    margin: 0 auto 75px;
+}
+.bottom-nav {
+    flex-flow: column;
+}
+.bottom-nav-section1, .bottom-nav-section2, .bottom-nav-section3, .bottom-nav-section4 {
+    width: 50%;
+    margin: 0 auto;
+}
+.section-padding {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.section-padding2 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.title-padding {
+    padding-bottom: 45px;
+}
+.red-line {
+    margin-bottom: 25px;
+}
+h4 {
+    margin-bottom: 20px;
+}
+.about-us {
+flex-flow: column;
+}
+.super-team,
+.super-office,
+.super-technology {
+width: 90%;
+margin: 15px auto;
+}
+.row-our-numerals {
+flex-flow: column;
+}
+.row-our-numerals div {
+    width: 100%;
+    border-bottom: 1px solid #b5eae0;
+    border-left: none;
+    min-height: 35px;
+    padding-bottom: 5px;
+}
+.row-our-numerals p {
+
+    font-size: 32px;
+    font-weight: bold;
+      margin: 15px auto;
+}
+
+.flex-box,
+.row-top,
+.row-bottom,
+.our-team {
+flex-flow: column;
+}
+.services-item,
+.what-we-do-img,
+.accordion,
+.owl-text,
+.our-team-foto {
+  width: 90%;
+  margin: 0 auto;
+}
+.owl-text .text-italic-big {
+    text-align: center;;
+}
+.what-we-do-img {
+  margin-bottom: 15px;
+}
+.owl-text {
+    padding-right: 0;
+}
+.services-img {
+  width: 100%;
+}
+h5 {
+  text-align: center;
+}
+.unique-design {
+  display: none;
+}
+.owl-img {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+.owl-text .flex-box {
+    width: 100%;
+}
+.our-team h5 {
+  margin-top: 5px;
+}
+.our-team .text-italic {
+  display: inline-block;
+  margin-bottom: 15px;
+}
 }

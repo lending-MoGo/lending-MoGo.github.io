@@ -10,11 +10,7 @@ a {
 a, a:hover {
     text-decoration: none;
 }
-.clearfloat:after {
-    content: '';
-    clear: both;
-    display: block;
-}
+
 header {
     width: 100%;
     min-height: 970px;
