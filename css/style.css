@@ -310,12 +310,14 @@ h5 {
 }
 .tablet-bg {
     position: absolute;
-    right: 430px;
+    left: 50%;
+    margin-left: -230px;
     bottom: 0;
 }
 .iphone-bg {
     position: absolute;
-    right: 340px;
+    left: 50%;
+    margin-left: 125px;
     bottom: -60px;
 }
 .red-line {
